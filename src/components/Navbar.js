@@ -12,10 +12,9 @@ const Navbar = () => {
         <li>Courses</li>
         <li>Contact</li>
       </ul>
-      <div>
-        <button>Login</button>
-        <button>Register</button>
-        
+      <div className="nav-btn">
+        <Button text="Login" number={1} />
+        <Button text="Register" number={2} />
       </div>
     </nav>
   );

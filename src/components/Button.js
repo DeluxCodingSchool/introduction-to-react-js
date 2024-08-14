@@ -1,9 +1,11 @@
 import React from "react";
 
-const Button = () => {
+const Button = (props) => {
   return (
     <div>
-      <button className="form-btn">Submit Button</button>
+      <button className="form-btn">
+        {props.text} {props.number}
+      </button>
     </div>
   );
 };

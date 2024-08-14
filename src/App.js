@@ -1,11 +1,16 @@
 import "./App.css";
-import Button from "./components/Button";
+// import Button from "./components/Button";
 import Navbar from "./components/Navbar";
+// import logo from "./assets/images/logo2.svg";
+import FlashSalesCard from "./components/FlashSalesCard";
 
 function App() {
   return (
     <div className="">
       <Navbar />
+      {/* <img src={logo} alt="logo" /> */}
+
+      <FlashSalesCard />
 
       {/* <h1>Hello World from React js</h1>
 
